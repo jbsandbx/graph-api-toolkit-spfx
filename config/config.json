@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graph-toolkit-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphToolkit/GraphToolkitWebPart.js",
+          "manifest": "./src/webparts/graphToolkit/GraphToolkitWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphToolkitWebPartStrings": "lib/webparts/graphToolkit/loc/{locale}.js"
+  }
+}
